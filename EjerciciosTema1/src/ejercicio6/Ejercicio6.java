@@ -18,6 +18,8 @@ public class Ejercicio6 {
 		min%=60;
 		
 		System.out.println("El numero de segundos introducidos equivale a "+horas+" horas, "+min+" minutos y "+seg+" segundos");
+		
+		sc.close();
 	}
 
 }

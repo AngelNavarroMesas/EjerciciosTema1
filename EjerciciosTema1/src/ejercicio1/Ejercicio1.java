@@ -10,11 +10,11 @@ public class Ejercicio1 {
 		//Declaramos la variable para este ejercicio
 		double num;
 		
-		//Le pedimos al usuario que introduzca un numero y usamos el escaner par darle ese valor a la variable
+		//Le pedimos al usuario que introduzca un numero y usamos el escaner para darle ese valor a la variable
 		System.out.println("Introduzca un numero con decimales");
 		num = sc.nextDouble();
 		
-		//Esta operacion nos permite redondear el numero sin usar Math.pow
+		//Esta operacion nos ayuda a redondear el numero sin usar Math.pow
 		num +=0.5;
 		
 		//Mostramos al usuario el redondeo del numero que ha introducido
